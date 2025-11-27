@@ -33,8 +33,15 @@ export const DATE_AND_TIME = getDateAndTime();
 export const AI_NAME = "EcomQuery";
 export const OWNER_NAME = "GroupA1";
 
-export const WELCOME_MESSAGE = `Hello! I'm ${AI_NAME}, an AI assistant created by ${OWNER_NAME}.`
+export const WELCOME_MESSAGE = `
+👋 Welcome! I’m ${AI_NAME}, also known as *Ecom Query Bot* — your Virtual Data Analyst, built by ${OWNER_NAME}.
 
+I help you explore and understand your business data using simple everyday language. You don’t need to know SQL or database structures — just ask a question, and I’ll translate it into safe, optimized SQL, run the analysis, and present clear insights you can use immediately.
+
+Whether you're validating an idea, checking performance, or making data-driven decisions, I streamline the entire analytics workflow by handling query creation, data retrieval, and interpretation for you.
+
+This demo uses synthetic company-style data designed to mimic real e-commerce patterns, giving you a realistic and safe environment to experiment with analytics.
+`;
 export const CLEAR_CHAT_TEXT = "New";
 
 export const MODERATION_DENIAL_MESSAGE_SEXUAL = "I can't discuss explicit sexual content. Please ask something else.";
