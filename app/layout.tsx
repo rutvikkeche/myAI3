@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "NoCodeQuery",
-  description: "NoCodeQuery",
+  title: "EcomQuery",
+  description: "EcomQuery",
 };
 
 export default function RootLayout({
