@@ -224,6 +224,13 @@ export default function Chat() {
                     <div className="text-center space-y-2">
                       <div className="flex justify-center">
                         <div className="p-3 bg-primary/10 rounded-full">
+                          <img 
+                            src="public/chat_logo.png"
+                            alt="Chat Logo"
+                            className="h-8 w-8 object-contain" 
+                            /> 
+                        </div> 
+                      </div>
                           <Sparkles className="size-8 text-primary" />
                         </div>
                       </div>
