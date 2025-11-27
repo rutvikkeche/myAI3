@@ -25,8 +25,12 @@ export const GUARDRAILS_PROMPT = `
 `;
 
 export const CITATIONS_PROMPT = `
-- Always cite your sources using inline markdown, e.g., [Source #](Source URL).
-- Do not ever just use [Source #] by itself and not provide the URL as a markdown link-- this is forbidden.
+<citation_rules>
+- Do NOT use citations for answers derived from SQL queries, database results, or tool outputs.
+- Only use citations when referencing external information accessed through web search tools.
+- Never invent URLs or placeholder citations like "Source."
+- If no external source was used, respond normally without citations.
+</citation_rules>
 `;
 
 export const COURSE_CONTEXT_PROMPT = `
