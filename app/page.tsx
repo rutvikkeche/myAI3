@@ -69,8 +69,8 @@ const saveMessagesToStorage = (messages: UIMessage[], durations: Record<string, 
 const SAMPLE_PROMPTS = [
   {
     icon: "📊",
-    title: "Analyze sales data",
-    prompt: "Show me total sales by region for the last quarter"
+    title: "Data Schema",
+    prompt: "How does the data schema look like?"
   },
   {
     icon: "👥",
@@ -78,14 +78,14 @@ const SAMPLE_PROMPTS = [
     prompt: "What are the top 10 customers by revenue?"
   },
   {
-    icon: "📈",
-    title: "Growth trends",
-    prompt: "Compare month-over-month revenue growth for this year"
+    icon: "🛍️",
+    title: "Category Insights",
+    prompt: "Which category observed the most orders?"
   },
   {
-    icon: "🔍",
-    title: "Product performance",
-    prompt: "Which products have the highest conversion rates?"
+    icon: "💰",
+    title: "Average Order Value",
+    prompt: "What is the average order value of the database?"
   }
 ];
 
