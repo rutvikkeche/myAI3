@@ -36,7 +36,7 @@ export const OWNER_NAME = "GroupA1";
 export const WELCOME_MESSAGE = `
 👋 Welcome! I’m ${AI_NAME}, also known as *Ecom Query Bot* — your Virtual Data Analyst, built by ${OWNER_NAME}.
 
-I help you explore and understand your business data using simple everyday language. You don’t need to know SQL or database structures — just ask a question, and I’ll translate it into safe, optimized SQL, run the analysis, and present clear insights you can use immediately.
+I help you explore and understand your business data using simple everyday language. You don’t need to know SQL or database structures — just ask a question, and I’ll run the analysis and present clear insights you can use immediately.
 
 Whether you're validating an idea, checking performance, or making data-driven decisions, I streamline the entire analytics workflow by handling query creation, data retrieval, and interpretation for you.
 
